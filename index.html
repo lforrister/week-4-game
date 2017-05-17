@@ -1,0 +1,81 @@
+<!DOCTYPE.html>
+<html lang="en"">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Week 4 Game </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Megrim|Poppins" rel="stylesheet">
+	 <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+	</script>
+</head>
+
+
+
+<body background="assets/images/crystalbackground.jpg">
+
+<!-- HEADER BUTTON -->
+<button id="headButton" type="button" class="btn btn-default btn-lg center-block">CRYSTALS COLLECTOR !</button>
+
+<!-- INSTRUCTIONS -->
+<div class="container" id="instructions">
+  <div class="row">
+    	<p> You will be given a random number at the start of the game. </p>
+   		 <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+    	<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+    	<p> The value of each crystal is hidden from you until you click on it. </p>
+    	<p> Each time when the game starts, the game will change the value of each crystal. </p>
+  </div>
+</div>
+
+<!-- RANDOM BUTTON + WIN/LOSE BUTTON -->
+
+<div class="container">
+	<div class="row">
+  		<div type=button class="col-md-6 btn btn-default btn-lg" id="randomButton"> 
+  		</div>
+  		<div type=button class="col-md-6 btn btn-default btn-lg" id="winLoseButton"> 
+  			<p class="buttonText"> Wins: <span id="winner"> </span> </p>
+  			<p class="buttonText"> Losses: <span id = "loser"> </span> </p>
+  		</div>
+  	</div>
+</div>
+
+<!-- GEMS --> 
+<div class="row center-block">
+
+  <div class="col-md-2"> </div>
+  <div class="col-md-2 gem" id="redgem">
+  	<img src="assets/images/redgem.png">
+  </div>
+  <div class="col-md-2 gem" id="rainbowgem">
+  	<img src="assets/images/rainbowgem.png">
+  </div>
+  <div class="col-md-2 gem" id="bluegem">
+  	<img src="assets/images/bluegem.png">
+  </div>
+  <div class="col-md-2 gem" id="pinkgem">
+  	<img src="assets/images/pinkgem.png">
+  </div>
+  
+</div>
+
+<!-- TOTAL SCORE BUTTONS -->
+<div class="container">
+	<div class="row">
+  		<div type=button class="col-md-6 btn btn-default btn-lg" id="totalScore"> <h2> Your Total Score Is: </h2>
+  		</div>
+  		<div type=button class="col-md-6 btn btn-default btn-lg" id="score"> 
+  		</div>
+  	</div>
+</div>
+
+ <script src="assets/javascript/game.js"> </script>
+
+</body>
+</html>

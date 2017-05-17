@@ -1,0 +1,55 @@
+#headButton {
+	background-color:rgba(255,255,255,.8);
+	border:none;
+	padding:20px 50px;
+	margin-top:5%;
+	font-family: 'Megrim', cursive;
+	font-size:32px;
+	font-weight:bold;
+	color:gray;
+
+}
+
+#instructions {
+	text-align:center;
+	margin-top:3%;
+	background-color:rgba(255,255,255,.8);
+	padding:20px 50px 10px 50px ;
+	border-radius:25px;
+	font-family: 'Poppins', sans-serif;
+	font-size:98%;
+	font-weight:bold;
+	line-height:1.2;
+	color:rgb(2,12,76);
+}
+
+#randomButton, #totalScore {
+	height:100px;
+	background-color:rgba(2,12,76,.8);
+	margin-top:3%;
+	color:white;
+	font-size:250%;
+	line-height:2;
+	
+}
+
+#winLoseButton, #score {
+	height:100px;
+	background-color:gray;
+	margin-top:3%;
+	color:white;
+}
+
+.buttonText {
+	color:white;
+	font-family:'Megrim', cursive;
+	line-height:1;
+	margin-top:3%;
+
+}
+
+.gem {
+	margin-top: 3%;
+	;
+}
+
