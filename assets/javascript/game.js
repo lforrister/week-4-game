@@ -8,6 +8,10 @@ newGame();
 	console.log(randomNumber);
 	$("#randomButton").text(randomNumber);
 	counter === 0;
+	redNumber = Math.floor(Math.random() * 20) +1;
+	rainbowNumber = Math.floor(Math.random() * 20) +1;
+	blueNumber = Math.floor(Math.random() * 20) +1;
+	pinkNumber = Math.floor(Math.random() * 20) +1;
 };
 
 
@@ -15,11 +19,8 @@ newGame();
 Set the function up so that it generates a random number when it's clicked.
 Then append that number to the #score button. */
 
-GEMS:
-var redNumber = Math.floor(Math.random() * 20) +1;
-var rainbowNumber = Math.floor(Math.random() * 20) +1;
-var blueNumber = Math.floor(Math.random() * 20) +1;
-var pinkNumber = Math.floor(Math.random() * 20) +1;
+// GEMS:
+
 
 var scoreLose = 0;
 var scoreWin = 0;
